@@ -1,0 +1,35 @@
+service: octank-auth # NOTE: update this with your service name
+
+provider:
+  name: aws
+  stage: dev
+  region: us-east-1
+  runtime: nodejs6.10
+  memorySize: 512
+  timeout: 30
+  cfLogs: true
+
+functions:
+  signin:   #
+    handler: handler.signin
+    events:
+    - http:
+        path: auth/signin/{provider}
+        method: get
+        cors: true
+  callback: #google/facebook/ms callback handler
+    handler: handler.callback
+    events:
+    - http:
+        path: auth/callback/{provider}
+        method: get
+        cors: true
+  authorize:  #custom authorizer for APIs
+    handler: handler.authorize
+  refresh: #refresh google token. facebook access_token is valid for 6 months
+    handler: handler.refresh
+    events:
+    - http:
+        path: auth/refresh/{refresh_token}
+        method: get
+        cors: true

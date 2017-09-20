@@ -1,0 +1,13 @@
+{
+    "statusCode": 200,
+    "headers": {
+        "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+        "Access-Control-Allow-Origin": "*"
+    },
+    "body": {
+        "access_token": "ya29.Gls8BC_XEdnC4GSnUatZ1-GtgS3Mrgul5grqC7Kz4LMy-TfpkJpuoPi3-omoi2QyXu839Iod9CINIyMwmFmWszMamGrebRGaQMRk7z6EqbQr756yUZxAQrwPnifx",
+        "token_type": "Bearer",
+        "expires_in": 3600,
+        "id_token": "eyJhbGciOiJSUzI1NiIsImtpZCI6ImNmYWVjZjI5MWFhM2M4YWZiMDg2ZGUxYmU3ZGJlNmM3NjMyODI3NDYifQ.eyJhenAiOiIxMDc2MDQ2OTkwMzItYTFwNmY1dGRvbHZxbmFnbzhsN2swbDhhMnIxdnZtYzguYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJhdWQiOiIxMDc2MDQ2OTkwMzItYTFwNmY1dGRvbHZxbmFnbzhsN2swbDhhMnIxdnZtYzguYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJzdWIiOiIxMTA2NjMwNjEyNjc3MzEzODM1NzQiLCJlbWFpbCI6ImhpLnByYWJoYXRAZ21haWwuY29tIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsImF0X2hhc2giOiJqQ1BFNHY4RkZhbjJzOTgxWUt5bEFnIiwiaXNzIjoiaHR0cHM6Ly9hY2NvdW50cy5nb29nbGUuY29tIiwiaWF0IjoxNDkzNTcxODMyLCJleHAiOjE0OTM1NzU0MzJ9.rgODHs_mLud5FLMoyujhpaKPcrPeXf8QjZdAxM8vpNOygK58C-8ATJJNnDTUcr_ATy9yNhxdoqyAWBJVBsEHU5zXOcl4VfAZ-xagwQwEyzWS_x94munAQ1fbydZusMjE0dOwsgaZICWF6KYHzMu7-yNATbWxKdd_V08LwD4oAi-SU7ojlOluCrIgpsc3_suKpBiDcwL55rvkJwZlmbM7eZNE50P20hovzd9htDmS76JktzWjWErEkn7szK7rosO1lGkmQY-YuoTuErjdLoCtZzsBo4YClQdDRkaEQcLu6FAlapCSX2lyz3OvLr6QFNt5CzKzgfN00O2U6wz6011boA"
+    }
+}
