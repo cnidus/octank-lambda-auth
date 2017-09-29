@@ -5,8 +5,8 @@
   "main": "handler.js",
   "scripts": {
     "test": "mocha 'tests/**/*test.js'",
-    "deploy-app": "sls deploy --stage=app --region=ap-south-1",
-    "remove-app":"sls remove --stage=app --region=ap-south-1"
+    "deploy-app": "sls deploy --stage=app --region=us-east-1",
+    "remove-app":"sls remove --stage=app --region=us-east-1"
   },
   "author": "",
   "license": "ISC",
